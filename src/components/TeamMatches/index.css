@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.banner {
+  width: 90%;
+  border-radius: 4px;
+}
+.cont {
+  padding: 20px;
+}
+.img-cont {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.spin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.list-cont {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.RCB {
+  background-image: linear-gradient(to bottom, #a4261d, black);
+}
+.KKR {
+  background-image: linear-gradient(to bottom, #5755a7, black);
+}
+.KXP {
+  background-image: linear-gradient(to bottom, #d91c1f, black);
+}
+.CSK {
+  background-image: linear-gradient(to bottom, #f7db00, black);
+}
+.RR {
+  background-image: linear-gradient(to bottom, #da237b, black);
+}
+.MI {
+  background-image: linear-gradient(to bottom, #13418b, black);
+}
+.SH {
+  background-image: linear-gradient(to bottom, #f26d22, black);
+}
+.DC {
+  background-image: linear-gradient(to bottom, #4f5db0, black);
+}

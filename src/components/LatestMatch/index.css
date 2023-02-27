@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.latest-head {
+  color: white;
+  font-family: 'Bree serif';
+  font-size: 22px;
+}
+.match-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.ipl-cont {
+  background-color: #0f172a;
+
+  border-radius: 10px;
+}
+.competing-team-head {
+  color: white;
+  font-size: 28px;
+  font-family: 'Bree serif';
+}
+.date {
+  color: white;
+  font-size: 23px;
+  font-family: 'Bree serif';
+}
+.venue {
+  color: white;
+  font-size: 17px;
+  font-family: 'Bree serif';
+}
+.result {
+  color: white;
+  font-size: 17px;
+  font-family: 'Bree serif';
+}
+.image1 {
+  width: 120px;
+}
+.inning-para {
+  color: white;
+  font-size: 20px;
+  font-family: 'Bree serif';
+}
+.team-para {
+  color: white;
+  font-size: 17px;
+  font-family: 'Bree serif';
+}
+.inning-cont {
+  padding-left: 25px;
+  padding-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  hr {
+    display: none;
+  }
+  .ipl-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+  }
+  .match-cont {
+    width: 60%;
+  }
+  .image1 {
+    width: 180px;
+  }
+}

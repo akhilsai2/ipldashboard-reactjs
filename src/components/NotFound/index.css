@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.found-cont {
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head-notFound {
+  color: white;
+  font-size: 35px;
+  font-family: 'Bree serif';
+  font-weight: 500;
+}
+@media screen and (max-width: 768px) {
+  .found-cont {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  }
+}
